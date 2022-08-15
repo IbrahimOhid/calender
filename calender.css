@@ -1,0 +1,29 @@
+h1{
+    color: orangered;
+    text-align: center;
+    font-size: 50px;
+}
+
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    list-style: none;
+    background-color: darkblue;
+    color: white;
+    height: 69px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+.openday{
+    background-color: darkcyan !important;
+}
+.weekend{
+    background-color: red !important;
+}
+
